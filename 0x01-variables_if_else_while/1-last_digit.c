@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes here*/
-/* betty style doc for function main goes there*/
-/* main - To determin if last digit of a random number is
-  greater than or less than 5, or zero */
-/* Return : 0 on success */
+/**
+ * main - Entry point
+ *
+ * Return : always 0 (Meaning Success)
+ */
+
 int main(void)
 {
 	int n;
