@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main : Determine if the variable is positive or negative.
+ *main- Determine if the variable is positive or negative.
  *
  * Return : Always 0 (Success)
  */
