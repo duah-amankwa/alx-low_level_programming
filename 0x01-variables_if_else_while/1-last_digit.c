@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - assigning random numbers to the variable n
+* main- assigning random numbers to the variable n
 *
-* Return : always 0 (Meaning Success)
+* Return: always 0 (Meaning Success)
 */
 
 int main(void)
