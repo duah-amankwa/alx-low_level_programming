@@ -8,9 +8,10 @@ int main (void)
 {
 	int singleDigit;
 
-	for (singleDigit = 0; singleDigit < 10; singleDigit++)
+	while(singleDigit = 0; singleDigit < 10; singleDigit++)
+	{	
 		printf("%d",singleDigit);
-		printf("\n");
-		
+	}
+	printf("\n");	
 	return (0);
 }
