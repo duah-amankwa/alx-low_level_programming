@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Main -  Printing lower and upper case alphabets
+ * main - entry block
  *
- * Return : 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
@@ -16,5 +16,5 @@ int main(void)
 		putchar(lower);
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
