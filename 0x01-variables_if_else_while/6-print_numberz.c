@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- prints digits in base 10 without char,
+ * main- Entry point
  *
  * return: Always 0
  */
