@@ -4,14 +4,8 @@
  *
  * Return : Always 0 
  */
-int main (void)
+int main(void)
 {
-	int singleDigit;
-
-	while(singleDigit = 0; singleDigit < 10; singleDigit++)
-	{	
-		printf("%d",singleDigit);
-	}
-	printf("\n");	
+	printf("0123456789\n");
 	return (0);
 }
