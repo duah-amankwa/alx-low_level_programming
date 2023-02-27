@@ -3,6 +3,7 @@
 /**
 * reset_to_98 - a function that takes a pointer to an integer as
 * parameter and updates the value to 98
+* n - decleared pointers name
 * Return: int
 */
 void reset_to_98(int *n)
