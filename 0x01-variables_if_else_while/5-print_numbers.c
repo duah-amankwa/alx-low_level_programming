@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	prinf("0123456789\n");
+	printf("0123456789");
 
 	return (0);
 }
