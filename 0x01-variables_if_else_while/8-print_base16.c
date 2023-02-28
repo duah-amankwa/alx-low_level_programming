@@ -1,18 +1,21 @@
 #include <stdio.h>
 /**
- * main - Print all numbers of base 16 in lowercase
+ * main - is entry of program
  *
- * Return : Always 0
+ * Return: 0, if succesful
  */
 int main(void)
 {
-	int i;
-	char x;
+	/* prints the hexadecimal base16,using putchar */
+	int x;
+	char y;
 
-	for (i = 0; i < 10; i++)
-		putchar(i + '0');
-	for (x = 'a'; x <= 'f'; x++)
-		putchar(x);
-		putchar('\n');
+	for (x = 0 ; x < 10 ; x++)
+		putchar((x % 10) + '0');
+
+	for (y = 'a' ; y <= 'f' ; y++)
+		putchar(y);
+	putchar('\n');
+
 	return (0);
 }
