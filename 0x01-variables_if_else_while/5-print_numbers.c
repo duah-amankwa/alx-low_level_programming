@@ -6,6 +6,9 @@
 */
 int main(void)
 {
-	printf("0123456789\n");
+	for(int x = 0; x < 10; x++)
+	{
+		printf("%d", x);
+	}
 	return (0);
 }
