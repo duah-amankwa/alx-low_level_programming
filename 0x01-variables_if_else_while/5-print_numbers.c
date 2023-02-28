@@ -6,8 +6,7 @@
 */
 int main(void)
 {
-	for(int x = 0; x < 10; x++)
-		printf("%d\n", x);
+	prinf("0123456789\n");
 
 	return (0);
 }
