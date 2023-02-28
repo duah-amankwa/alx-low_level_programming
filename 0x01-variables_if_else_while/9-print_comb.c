@@ -6,16 +6,18 @@
  */
 int main(void)
 {
-	int i;
-	/*Printing all possible combinations of single digit numbers */
-	for (i = 0; i < 10 ; i++)
-    {
-    	putchar((i % 10) + '0');
-		if (i == 9)
-		continue;
-	putchar(',');
-	putchar(' ');
-    }
+	/*Printing all possible combinations of single digits*/
+	int x;
+
+	for (x = 0 ; x < 10 ; x++)
+	{
+		putchar((x % 10) + '0');
+		if (x == 9)
+		/*continue printing comma and space except if x == 9*/
+			continue;
+		putchar(',');
+		putchar(' ');
+	}
 	putchar('\n');
 	return (0);
 }
