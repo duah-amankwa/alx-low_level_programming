@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- Entry point
+ * main- Print single digit numbers of base 10
  *
  * return : 0 if sucessful
  */
