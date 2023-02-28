@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-* main- Print single digits
+* main - A program that prints all single digits numbers 
+* of base 10.
 *
 * Return : Always 0
 */
