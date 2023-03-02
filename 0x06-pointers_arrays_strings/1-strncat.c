@@ -3,24 +3,31 @@
  * _strncat- Concatenates two strings using inputted numbers
  * @dest: pointer to destination to be appended upon
  * @src:pointer to string to be appended to dest
- * @n: the number of bytes
+ * @n: the number of bytes from src
  *
- * Retutnrn : A poiniter to the resulting string dest
+ * Return : A poiniter to the resulting string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int array = 0, d_count = 0;
+	int i, j;
 
-	while (dest[array++])
+	if (n <= 0)
 	{
-		d_count++;
+		return (dest);
 	}
 
-	for (array = 0; src[array] && array < n; array++)
-	{
-		dest[d_count++] = src[array];
-	}
+	i = 0;
+	j = 0;
 
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	while (j < n && src[j] != '\0')
+	{
+		dest[i++] = src[j++];
+	}
+	dest[i++] = '\0';
 	return (dest);
 }
