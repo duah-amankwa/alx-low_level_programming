@@ -8,26 +8,19 @@
  * Return : A poiniter to the resulting string dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int aray = 0, d_count = 0;
 
-	if (n <= 0)
+	while (dest[aray++])
 	{
-		return (dest);
+		d_count++;
 	}
 
-	i = 0;
-	j = 0;
+	for (aray = 0; src[aray]; aray++)
+	{
+		dest[d_count++] = src[aray];
+	}
 
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
-	while (j < n && src[j] != '\0')
-	{
-		dest[i++] = src[j++];
-	}
-	dest[i++] = '\0';
 	return (dest);
 }
