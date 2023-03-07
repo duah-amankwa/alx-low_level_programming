@@ -1,31 +1,26 @@
 #include "main.h"
-
 /**
-* print_diagonal - prints diagonal line on the terminal
-*@n: numbers of lines and columns
-* Return: none
-**/
+ * print_diagonal - prints a diagonal line using the \ character.
+ * @n: number of \ characters to be printed.
+ */
 
 void print_diagonal(int n)
 {
-	int l, c;
+	int length, space;
 
-	for (l = 0; l < n; l++)
+	if (n > 0)
 	{
-		for (c = 0; c <= l; c++)
+		for (length = 0; length < n; length++)
 		{
-			if (c != l)
-			{
+			for (space = 0; space < length; space++)
 				_putchar(' ');
-			}
-			else
-			{
-				_putchar('\\');
-			}
+			_putchar('\\');
 
+			if (length == n - 1)
+				continue;
+
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
-	if (n <= 0)
-		_putchar('\n');
+	_putchar('\n');
 }
