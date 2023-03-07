@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * print_line - prints a straight line using the character _.
- * @n: number of _ characters to be printed.
- */
+* print_line - draws a straight line in the terminal
+* @n: the number of times the character _
+* Return: none;
+**/
+
 void print_line(int n)
 {
-	int length;
+	int count;
 
-	if (n > 0)
+	for (count = 0; count < n; count++)
 	{
-		for (length = 0; length < n; length++)
-			_putchar('_');
+		_putchar('_');
 	}
 	_putchar('\n');
-
+}
