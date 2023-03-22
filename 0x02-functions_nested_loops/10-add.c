@@ -4,7 +4,7 @@
  * add - Adds two integers
  * @x : int type number
  * @y :i int type number
- * Retunr : result of the  addition 
+ * Return : result of the  addition
  */
 int add(int x, int y)
 {
