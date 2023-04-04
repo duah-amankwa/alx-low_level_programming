@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * listint_len- returns the number of elemets
+ * listint_len - A function that returns the number of elements in the list
  * @h: A pointer to listint_t structure
- * return : number of elements
  *
+ * return : number of elements
  */
 
 size_t listint_len(const listint_t *h)
