@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * listint_len- function that returns the number of elements
- * 		 in a listint_t list
+ * listint_len- returns the number of elemets
  * @h: A pointer to listint_t structure
  * return : number of elements
  *
